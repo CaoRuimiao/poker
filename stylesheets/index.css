@@ -1,0 +1,101 @@
+body{
+	margin: 0px;
+	font-family: 'cooper';
+	/*background: #1a0f15;*/
+	background: url('../images/bj.jpg');	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.clear{
+	clear:both;
+}
+#title{
+	width: 276px;
+	height: 254px;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	background: url('../images/276274.png');
+	background-size: cover;
+}
+#again{
+	width: 100px;
+	height: 40px;
+	font-size: 3em;
+	position: absolute;
+	top: 178px;
+	left: 78px;
+	font-family: '幼圆';
+	cursor: default;
+}
+#sence{
+	width: 900px;
+	height: 670px;
+	margin: 30px auto 10px;
+	position: relative;
+	/*background: #1a0f15;*/
+}
+#tishi{
+	width: 310px;
+	height: 251px;
+	position: absolute;
+	top: 224px;
+	left: 520px;
+	z-index: 60;
+	background: url('../images/tishi.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: none;
+}
+.puKePai{
+	width: 120px;
+	height: 160px;
+	background: rgba(106,2,236,0.5);
+	border-radius: 2px;
+	box-shadow: 0 0 5px black;
+	font-size: 20px;
+	background-size: cover;
+	cursor: pointer;
+}
+#leftPlace{
+	width: 121px;
+	height: 161px;
+	position: absolute;
+	left: 94px;
+	bottom: 20px;
+}
+.leftPai{
+	width: 120px;
+	height: 160px;
+	background: rgba(106,2,236,0.5);
+	border-radius: 2px;
+	box-shadow: 0 0 5px black;
+	font-size: 20px;
+	background-size: cover;
+	cursor: pointer;
+}
+#change,#reChange{
+	width: 100px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+	position: absolute;	
+	left: 400px;
+	cursor: pointer;
+	background: url('../images/change.png');
+	background-repeat: no-repeat;
+}
+#change{
+	bottom: 120px;
+}
+#reChange{
+	bottom: 60px;
+}
+#rightPlace{
+	width: 121px;
+	height: 161px;
+	position: absolute;
+	right: 94px;
+	bottom: 20px;
+}
